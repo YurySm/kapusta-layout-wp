@@ -1,0 +1,83 @@
+
+.header__img {
+    position: absolute;
+    width: 118px;
+    top: -10px;
+    left: -70px;
+}
+.header__btn {
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 55px;
+    top: 0;
+    right: 0px;
+    background: url(../img/icon/header_rasp.png) center (center/contain) no-repeat;
+    font-family: 'Tomarik-Extrovert';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 58px;
+    text-align: center;
+    color: #eaeaea;
+}
+.logo__link {
+    display: block;
+    width: 300px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+.menu__item-tt {
+    display: none;
+}
+.logo__img{
+    width: 100%;
+}
+.header__line {
+    display: block;
+    width: 100%;
+    margin-top: 28px;
+}
+.menu__items {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.menu__item {
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: 'Tomarik-Extrovert';
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1;
+    color: #404040;
+    text-align: center;
+    &-tt {
+        display: none;
+    }
+}
+
+.menu__item-active {
+    background: url(../img/icon/hover.png) center (center/contain) no-repeat;
+}
+.header__title {
+    font-family: 'Tomarik-Extrovert';
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #404040;
+    margin-top: 10px;
+}
+.hamburger {
+    display: none;
+}

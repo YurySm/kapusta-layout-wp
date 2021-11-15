@@ -1,0 +1,67 @@
+.our {
+    margin-top: 50px;
+    &__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        max-width: 49%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        img {            
+            display: block;
+            width: 250px;
+            height: 250px;
+        }
+        &-last {
+            img {
+                width: auto;
+                margin-right: 100px;
+            }
+        }
+        &__person {
+            margin-left: 20px;
+            &-name {
+                font-family: 'Tomarik-Extrovert';
+                font-size: 34px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #404040;
+                margin-bottom: 10px;
+            }
+            &-descr {
+                font-family: 'Tomarik-Extrovert';
+                font-size: 18px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.1;
+                letter-spacing: normal;
+                text-align: left;
+                color: #404040;
+                margin-bottom: 30px;
+            }
+            &-link {
+                width: 145px;
+                height: 55px;
+                background:url(../img/our/btn-border.png) center (center/contain) no-repeat;
+                text-align: center;
+                padding-top: 10px;
+                a {
+                    font-family: 'Tomarik-Extrovert';
+                    font-size: 19px;            
+                    color: #404040;
+                }
+            }
+
+        }    
+    }
+}

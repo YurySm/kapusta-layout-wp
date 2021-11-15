@@ -1,0 +1,65 @@
+.timetable {
+    min-height: 940px;
+    position: relative;
+    &__img {
+        &-top {
+            display: none;
+        }
+        &-rtop {
+            display: none;
+        }
+        &-rbot {
+            display: none;
+        }
+        &-watch {
+            display: none;
+        }
+        &-paper {
+            display: none;
+        }
+        &-bottom {
+            display: none;
+        }
+    }
+
+    &__bg {
+        display: block;
+        max-width: 1050px;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__title{
+        font-family: 'Tomarik-Extrovert';
+        font-size: 58px;
+        font-weight: normal;       
+        font-style: normal;
+        text-align: center;
+        color: #404040;
+        margin-top: 49px;
+    }
+    &__table {        
+        width: 40%;
+        margin-left: 17%;
+        margin-top: 192px;
+        font-family: 'Tomarik-Extrovert';
+        font-size: 27px;
+        font-weight: normal;
+        font-style: normal;
+        text-align: left;
+        color: #404040;
+        &-week {
+            margin-bottom: 50px;
+        }
+        &-title{
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        &-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }     
+    }
+}

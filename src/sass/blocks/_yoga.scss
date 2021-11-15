@@ -1,0 +1,102 @@
+.yoga {
+    margin-top: 20px;
+    position: relative;
+    min-height: 600px;
+    padding-bottom: 150px;
+    &__bg {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+    }
+    &__title {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 58px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+    }
+    &__descr {
+        width: 80%;
+        margin: 0 auto;
+        font-family: 'Tomarik-Extrovert';
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+        margin-bottom: 50px;
+        &_mob {
+            display: none;
+        }      
+    }
+    &__img {
+        display: block;
+        width: 26%;
+        margin: 20px auto;
+        margin-bottom: 20px;
+        &_mob {
+            display: none;
+        }
+    }
+    &__big-photo {
+        position: relative;
+        margin-bottom: 170px;
+        &_bg {
+            display: block;
+            position: absolute;
+            width: 120%;
+            left: 53%;
+            transform: translateX(-50%);
+            top: -5%;
+        }
+        &_img {
+            img {
+                display: block;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        &__bg {
+            position: absolute;
+            width: 100%;
+            &_mob {
+                display: none;
+            }
+        }
+    }
+    &__photos { 
+        position: relative;
+        &_mob {
+            display: none;
+        }       
+        img {
+            display: block;
+            width: 75%;
+            position: absolute;
+            z-index: 100;
+            right: 1%;
+            top: -35px;
+        }
+        &-items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            &_mob {
+                display: none;
+            }
+            img {
+                width: 32%;
+            }
+        }
+        
+    }
+}

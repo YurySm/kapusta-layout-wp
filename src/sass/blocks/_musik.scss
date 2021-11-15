@@ -1,0 +1,66 @@
+.musik {
+    margin-top: 20px;
+    position: relative;
+    min-height: 600px;
+    padding-bottom: 150px;
+    &__bg {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        &_mob {
+            display: none;
+        }
+    }
+    &__title {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 58px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+    }
+    &__descr {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 27px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+        margin-top: 280px;
+        margin-bottom: 50px;
+    }
+    &__photos { 
+        position: relative; 
+        &_mob {
+            display: none;
+        }      
+        img{
+            display: block;
+            width: 75%;
+            position: absolute;
+            z-index: 100;
+            right: 1%;
+            top: -35px;
+        }
+        &-items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 32%;
+            }
+            &_mob {
+                display: none;
+            }
+        }
+        
+    }
+}

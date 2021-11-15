@@ -1,0 +1,32 @@
+
+
+
+body{
+    background: url(../img/bg/-e-paper_texture_01-2.jpg) center (center/cover) repeat;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    &-big {
+        max-width: 1100px;
+    }
+
+}
+
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/normolize';
+@import 'blocks/fonts';
+@import 'blocks/slider';
+@import 'base/slick';
+@import 'blocks/forum';
+@import 'blocks/contacts';
+@import 'blocks/timetable';
+@import 'blocks/our';
+@import 'blocks/massage';
+@import 'blocks/musik';
+@import 'blocks/bath';
+@import 'blocks/yoga';
+@import 'blocks/asvand';
+@import 'blocks/media';

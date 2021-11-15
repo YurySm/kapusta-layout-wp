@@ -1,0 +1,130 @@
+.carousel {
+    padding: 10px 0 20px 0;
+    &__inner {
+        position: relative;
+        img {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        a {
+            display: block;
+            width: 150px;
+            height: 50px;
+            margin: 0 auto;
+            text-align: center;
+            background: url('../img/slider/border-btn.png') center (center/contain) no-repeat;
+            font-family: 'Tomarik-Extrovert';
+            font-size: 19px;
+            line-height: 50px;            
+            color: #404040;
+            text-transform: uppercase;
+        }
+    }
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        border: none;
+        background: none;
+        z-index: 100;
+        img {
+            width: 60px;
+            
+        }
+    }
+    .slick-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        border: none;
+        background: none;
+        z-index: 100;
+        img {
+            width: 60px;
+            
+        }
+    }
+    &__mob {
+        display: none;
+        margin-top: 20px;
+        &_inner {
+            position: relative;
+            img{
+                width: 280px;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 19px;
+                margin-top: 30px;
+            }
+
+        }
+        &_title {
+            font-family: 'Tomarik-Extrovert';
+            font-size: 31px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.29;
+            letter-spacing: normal;
+            text-align: center;
+            color: #404040;
+        }
+        &_descr {
+            font-family: 'Tomarik-Extrovert';
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.13;
+            letter-spacing: normal;
+            text-align: center;
+            color: #404040;
+        }
+        a {
+            display: block;
+            width: 262px;
+            height: 73px;
+            margin: 0 auto;
+            margin-top: 32px;
+            margin-bottom: 40px;
+            text-align: center;
+            background: url('../img/slider/border-btn.png') center (center/contain) no-repeat;
+            font-family: 'Tomarik-Extrovert';
+            font-size: 27px;
+            line-height: 73px;            
+            color: #404040;
+            text-transform: uppercase;
+        }
+        .slick-next {
+            position: absolute;
+            top: 30%;
+            transform: translateY(-50%);
+            left: 0;
+            border: none;
+            background: none;
+            z-index: 100;
+            img {
+                width: 40px;
+                
+            }
+        }
+        .slick-prev {
+            position: absolute;
+            top: 30%;
+            transform: translateY(-50%);
+            right: 0;
+            border: none;
+            background: none;
+            z-index: 100;
+            img {
+                width: 40px;
+                
+            }
+        }
+    }
+        
+
+}

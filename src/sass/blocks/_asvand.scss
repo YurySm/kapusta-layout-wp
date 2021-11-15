@@ -1,0 +1,100 @@
+.master {
+    position: relative;
+    &__subtitle {
+        display: none;
+    }
+    &__bg {
+        display: block;
+        position: absolute;
+        width: 115%;
+        top: 110px;
+        left: -8%;
+    }
+    &__title {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 58px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+    }
+    &__wrapper {
+        min-height: 500px;
+        margin-top: 50px;
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-bg {
+            display: block;
+            position: absolute;
+            width: 380px;
+            left: 40px;
+            &-2 {
+                display: block;
+                position: absolute;
+                width: 500px;
+                right: 0;
+            }
+            &-3 {
+                display: block;
+                position: absolute;
+                width: 500px;
+                left: 50px;
+            }
+            &-4 {
+                display: block;
+                position: absolute;
+                width: 500px;
+                right: 0;
+            }
+        }
+        &-img {
+            display: block;
+            width: 300px;
+            border-radius: 100%;
+            margin-left: 83px;
+            margin-right: 50px;
+            &-2 {
+                display: block;
+                width: 460px;
+                border-radius: 100%;
+                margin-right: 20px;
+                margin-bottom: 40px;
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+            &-3 {
+                display: block;
+                width: 460px;
+                border-radius: 100%;
+                margin-left: 70px;
+                margin-right: 50px;
+            }
+            &-4 {
+                display: block;
+                width: 460px;
+                border-radius: 100%;
+                margin-right: 20px;
+                margin-bottom: 40px;
+                margin-top: 50px;
+                margin-left: 50px; 
+            }
+        }
+        &-descr {
+            font-family: 'Tomarik-Extrovert';
+            font-size: 20px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.1;
+            letter-spacing: normal;
+            text-align: left;
+            color: #404040;
+        }   
+    }
+}

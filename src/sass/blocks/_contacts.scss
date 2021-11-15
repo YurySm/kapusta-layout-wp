@@ -1,0 +1,42 @@
+.contacts {
+    min-height: 520px;
+    padding: 20px 0;
+    &__bg {
+        display: block;
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        &_mob {
+            display: none;
+        }
+    }
+    &__title {
+        margin: 0 auto;
+        font-family: 'Tomarik-Extrovert';
+        font-size: 50px;
+        font-weight: normal;
+        text-align: center;
+        color: #404040;
+    }
+    &__img {
+        display: block;
+        width: 220px;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 28px;
+    }
+    &__info {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 27px;
+        font-weight: normal;
+        text-align: center;
+        color: #404040;
+        margin-bottom: 70px;
+
+    }
+    &__map img{
+        display: block;
+        width: 100%;
+    }
+}

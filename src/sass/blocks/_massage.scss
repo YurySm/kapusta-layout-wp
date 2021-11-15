@@ -1,0 +1,38 @@
+.massage {
+    min-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    &__bg {
+        display: block;
+        position: absolute;
+        width: 122%;
+        left: 50%;
+        transform: translateX(-50%);
+        &_mob {
+            display: none;
+        }
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        width: 65%;
+    }
+    &__promo {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+        margin-top: 70px;
+
+    }
+    &__title {
+        display: none;
+    }
+
+}

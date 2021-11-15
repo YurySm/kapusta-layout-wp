@@ -1,0 +1,58 @@
+.bath {
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 150px;
+    &__bg {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+    }
+    &__title {
+        font-family: 'Tomarik-Extrovert';
+        font-size: 58px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #404040;
+    }
+    &__img {
+        display: block;
+        width: 26%;
+        margin: 20px auto;
+        margin-bottom: 100px;
+        &_mob {
+            display: none;
+        }
+    }
+    &__photos { 
+        position: relative;       
+        img {
+            display: block;
+            width: 75%;
+            position: absolute;
+            z-index: 100;
+            right: 1%;
+            top: -35px;
+        }
+        &-items {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                width: 32%;
+            }
+            &_mob {
+                display: none;
+            }
+        }
+        &_mob {
+            display: none;
+        }
+        
+    }
+}
